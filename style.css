@@ -1,0 +1,84 @@
+body{
+    font-size:large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+span{
+    font-family: Verdana;
+    border-bottom: 2px solid rgb(32, 178, 170);
+    color:lightseagreen;
+    
+}
+a{
+    text-decoration: none;    
+    color: aliceblue;
+}
+h4{
+    color:grey;
+    font-size: small;
+}
+img{
+    width: 10%;
+}
+p{
+    color: rgb(145, 131, 131);
+    font-size: medium;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    width: 300px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.but1:hover{
+    background: linear-gradient(lightgrey);
+}
+.but2:hover{
+    background: linear-gradient(lightgrey);
+}
+.but3:hover{
+    background: linear-gradient(lightgrey);
+}
+#name, #pass{
+    width: 300px;
+    padding: 6px 8px;
+    font-size:20px;
+    border-radius: 5px;
+}
+#name:hover{
+    border-color: rgb(58, 58, 221);
+}
+#pass:hover{
+    border-color: rgb(58, 58, 221);
+}
+.last{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background: rgb(20, 114, 50);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.last:hover{
+    background-color:rgb(10, 156, 39) ;
+}
+#set-Email{
+    position: relative;
+    top: 15px;
+    right: 138px;
+}
+#set-pass{
+    position: relative;
+    top:15px;
+    right: 122px;
+}
